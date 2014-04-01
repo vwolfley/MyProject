@@ -7,6 +7,9 @@ Use this site to explore bicycle paths and facilities throughout Maricopa County
 This web app viewer was developed by MAG staff for MAG member agencies and the public using ESRI's JavaScript API.
 
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+[![dependencies](https://david-dm.org/bahmutov/xplain.png)](https://david-dm.org/vwolfley/MyProject)
+
+
 
 [Site] (http://geo.azmag.gov/maps/bikemap/)
 
