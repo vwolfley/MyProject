@@ -11,11 +11,11 @@ This web app viewer was developed by MAG staff for MAG member agencies and the p
 [![Semver](http://img.shields.io/SemVer/2.0.0.png)](http://semver.org/spec/v2.0.0.html)
 
 
-[Site] (http://geo.azmag.gov/maps/bikemap/)
+  [Site] (http://geo.azmag.gov/maps/bikemap/)
+    
+  [Test Site] (http://geo.azmag.gov/maps/test/bikemap/)
 
-[Test Site] (http://geo.azmag.gov/maps/test/bikemap/)
-
-## Keywords
+### Keywords
 
 `ESRI` `Maps` `Bike Routes` `Transportation`
 
