@@ -136,3 +136,7 @@ Major/Minor/Patch 0.0.0
 
     * http://demo.dtsagile.com/backbone/MapExtent
     * http://demo.dtsagile.com/backbone/SearchApp
+    
+- **Articals**
+   
+   * http://tech.pro/tutorial/1190/package-managers-an-introductory-guide-for-the-uninitiated-front-end-developer#front_end_developers
