@@ -15,6 +15,10 @@ This web app viewer was developed by MAG staff for MAG member agencies and the p
 
 [Test Site] (http://geo.azmag.gov/maps/test/bikemap/)
 
+## Keywords
+
+`ESRI` `Maps` `Bike Routes` `Transportation`
+
 ## Documentation
 
 A detailed list of the changes and fixes in each version update can be found in the CHANGELOG.md.
