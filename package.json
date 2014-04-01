@@ -7,7 +7,7 @@
     "private" : true,
 
     "devDependencies" : {
-        "grunt" :                       "~0.4.0",
+        "grunt" :                       "~0.4.4",
         "grunt-contrib-cssmin":         "*",
         "grunt-contrib-sass":           "*",
         "grunt-contrib-jshint":         "*",
@@ -19,6 +19,7 @@
         "grunt-contrib-jshint":         "*",
         "matchdep":                     "*",
         "jshint-stylish":               "*",
-        "jshint-stylish-ex":            "*"
+        "jshint-stylish-ex":            "*",
+        "grunt-contrib-concat":         "*"
     }
 }
