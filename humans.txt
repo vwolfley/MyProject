@@ -8,25 +8,25 @@
         Role: GIS Analyst/Developer
         Contact:
         Twitter: @vernwolfley
-        From: Litchfield Park, AZ
+        From: Litchfield Park, AZ, USA
 
         Name:  Scott Bridwell
         Role: GIS Modeler/Developer
         Contact:
         Twitter:
-        From: Chandler, AZ
+        From: Chandler, AZ, USA
 
         Name:  Jason Howard
         Role: GIS Program Manager
         Contact:
         Twitter:
-        From: Chandler, AZ
+        From: Chandler, AZ, USA
 
         Name:  Anubhav Bagley
         Role: Information Services Manager
         Contact:
         Twitter:
-        From: Phoenix, AZ
+        From: Phoenix, AZ, USA
 
 # THANKS
 
@@ -34,17 +34,15 @@
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3,
-    html5-boilerplate-4.3.0,
-    ArcGIS Javascript API v3.8,
-    Bootstrap v3.1.1,
-    Bootstrap Map JS v3.0.0,
-    Normalize.css, jQuery v1.10.2, Modernizr,
-    Grunt
+    Standards: HTML5, CSS3
+    Components: ArcGIS Javascript API v3.8, html5-boilerplate-4.3.0, Bootstrap v3.1.1,
+    Bootstrap Map JS v3.0.0, Normalize.css, jQuery v1.10.2, Modernizr, Grunt
 
 # SITE
-    Version: 1.0.1
-    Last updated: 03/31/2014
+    Site name:
+    Site URL:
+    Version: 0.0.0
+    Last updated: mm/dd/yyyy
     Language: English
     Doctype: HTML5
-    IDE: Sublime Text, Note
+    IDE: Sublime Text
