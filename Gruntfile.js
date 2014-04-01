@@ -1,8 +1,12 @@
 module.exports = function(grunt){
+    
+    "use strict";
+
+    require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);
 
     grunt.initConfig({
-        pkg: grunt.file.readJSON('package.json')
-    });
+        
+        pkg: grunt.file.readJSON('package.json'),
     
         htmlhint: {
             build: {
@@ -21,7 +25,7 @@ module.exports = function(grunt){
 // Force special characters to be escaped
                     'id-unique': true,                     
 // Prevent using the same ID multiple times in a document
-                    'head-script-disabled': true,          
+                    // 'head-script-disabled': true,          
 // Prevent script tags being loaded in the  for performance reasons
                     'style-disabled': true                 
 // Prevent style tags. CSS should be loaded through 
@@ -30,18 +34,79 @@ module.exports = function(grunt){
             }
         },
         
+        // CSSLint. Tests CSS code quality
+        // https://github.com/gruntjs/grunt-contrib-csslint
+        csslint: {
+            // define the files to lint
+            files: ["css/main.css"],
+                strict: {
+                    options: {
+                        "import": 0,
+                        "empty-rules": 0,
+                        "display-property-grouping": 0,
+                        "shorthand": 0,
+                        "font-sizes": 0,
+                        "zero-units": 0,
+                        "important": 0,
+                        "duplicate-properties": 0,
+                    }
+            }
+        },
+        
+        jshint: {
+            files: ["config.js", "app/config/*.js", "app/helpers/*.js", "app/models/map-model.js", "app/vm/*.js", "app/main.js", "app/run.js"],
+                options: {
+                    // strict: true,
+                    sub: true,
+                    quotmark: "double",
+                    trailing: true,
+                    curly: true,
+                    eqeqeq: true,
+                    unused: true,
+                    scripturl: true,
+                    // This option defines globals exposed by the Dojo Toolkit.
+                    dojo: true,
+                    // This option defines globals exposed by the jQuery JavaScript library.
+                    jquery: true,
+                    // Set force to true to report JSHint errors but not fail the task.
+                    force: true,
+                    reporter: require("jshint-stylish-ex")
+                }
+        },
+        
         uglify: {
+            options: {
+                // add banner to top of output file
+                banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - main.js | <%= grunt.template.today("mm-dd-yyyy") %> */\n'
+            },
             build: {
                 files: {
-                    'build/js/base.min.js': ['assets/js/base.js']
+                    "../deploy/build/js/main.min.js": ["js/mainmap.js"]
                 }
             }
         },
         
         cssmin: {
-            build: {
-                src: 'build/css/master.css',
-                dest: 'build/css/master.css'
+            add_banner: {
+                options: {
+                // add banner to top of output file
+                    banner: '/* <%= pkg.name %> - v<%= pkg.version %> | <%= grunt.template.today("mm-dd-yyyy") %> */'
+                },
+                files: {
+                    "css/main.min.css": ["css/main.css"],
+                    "css/normalize.min.css": ["css/normalize.css"]
+                }
+            }
+        },
+        
+        concat: {
+            options: {
+              stripBanners: true,
+              banner: '/*! <%= pkg.name %> - v<%= pkg.version %> | <%= grunt.template.today("yyyy-mm-dd") %> */\n'
+            },
+            dist: {
+              src: ["../build/css/normalize.min.css", "../build/css/main.min.css"],
+              dest: 'css/concat.min.css'
             }
         },
 
@@ -59,10 +124,19 @@ module.exports = function(grunt){
                 tasks: ['buildcss']
             }
         }
+        
+    });
 
+    // the default task can be run just by typing "grunt" on the command line
     grunt.registerTask('default', ['jshint', 'less']);
+    // this would be run by typing "grunt test" on the command line
     grunt.registerTask('test', ['jshint', 'less']);
     grunt.registerTask('bbuildcss', ['jshint', 'uglify', 'less']);
     grunt.registerTask('production', ['jshint', 'uglify', 'less']);
 
 };
+
+//ref
+// http://coding.smashingmagazine.com/2013/10/29/get-up-running-grunt/
+// http://csslint.net/about.html
+// http://www.jshint.com/docs/options/
