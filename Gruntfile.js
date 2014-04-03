@@ -102,7 +102,7 @@ module.exports = function(grunt){
         concat: {
             options: {
               stripBanners: true,
-              banner: '/*! <%= pkg.name %> - v<%= pkg.version %> | <%= grunt.template.today("yyyy-mm-dd") %> */\n'
+              banner: '/*! <%= pkg.name %> - v<%= pkg.version %> | <%= grunt.template.today("mm-dd-yyyy") %> */\n'
             },
             dist: {
               src: ["../build/css/normalize.min.css", "../build/css/main.min.css"],
