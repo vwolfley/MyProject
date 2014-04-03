@@ -12,3 +12,16 @@
 		"Vintage"
 	]
 }
+// some more options
+{
+    "word_wrap": true,
+    "font_face": "Inconsolata",
+    "font_size": 14,
+    "highlight_line": true,
+    "trim_trailing_white_space_on_save": true,
+    "auto_complete_commit_on_tab": true,
+    "draw_white_space": "all",
+    "translate_tabs_to_spaces": true,
+    "tab_size": 2,
+    "rulers": [80]
+  }
