@@ -13,13 +13,11 @@
         "grunt-contrib-jshint":         "*",
         "grunt-contrib-csslint":        "*",
         "grunt-contrib-uglify":         "*",
+        "grunt-contrib-concat":         "*",
         "grunt-contrib-watch":          "*",
         "grunt-cssc":                   "*",
         "grunt-htmlhint":               "*",
-        "grunt-contrib-jshint":         "*",
         "matchdep":                     "*",
-        "jshint-stylish":               "*",
-        "jshint-stylish-ex":            "*",
-        "grunt-contrib-concat":         "*"
+        "jshint-stylish-ex":            "*"
     }
 }
