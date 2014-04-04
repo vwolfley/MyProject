@@ -22,7 +22,7 @@ This web app viewer was developed by MAG staff for MAG member agencies and the p
     
   [Test Site] (http://geo.azmag.gov/maps/test/bikemap/)
 
-###Process
+## Process
 
 ## Documentation
 
