@@ -18,8 +18,10 @@ module.exports = function(grunt){
                     'doctype-first': true,                 // Force the DOCTYPE declaration to come first in the document
                     'spec-char-escape': true,              // Force special characters to be escaped
                     'id-unique': true,                     // Prevent using the same ID multiple times in a document
-                    'head-script-disabled': true,          // Prevent script tags being loaded in the  for performance reasons
-                    'style-disabled': true                 // Prevent style tags. CSS should be loaded through 
+                    'head-script-disabled': true,       // Prevent script tags being loaded in the  for performance reasons
+                    'style-disabled': true,             // Prevent style tags. CSS should be loaded through 
+                    'curly': true                       // true: Require {} for every new block or scope
+                    'strict': false,                    // true: Requires all functions run in ES5 Strict Mode ** Dojo style and existing codebase conflicts **
                 },
                 src: ['index.html']
             }
