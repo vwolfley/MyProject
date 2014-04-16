@@ -7,6 +7,14 @@ module.exports = function(grunt){
     grunt.initConfig({
         
         pkg: grunt.file.readJSON('package.json'),
+        banner: '/*!\n' +
+                        '*@concat.min.css\n' +
+                        '*@CSS Document for ..... Website @ MAG\n' +
+                        '*@For Production\n' +
+                        '*@<%= pkg.name %> - v<%= pkg.version %> | <%= grunt.template.today("mm-dd-yyyy") %>\n' +
+                        '*@author <%= pkg.author %>\n' +
+                    '*/\n',
+        
     
         htmlhint: {
             build: {
@@ -95,7 +103,7 @@ module.exports = function(grunt){
         concat: {
             options: {
               stripBanners: true,
-              banner: '/*! <%= pkg.name %> - v<%= pkg.version %> | <%= grunt.template.today("mm-dd-yyyy") %> */\n'
+              banner: '<%= banner %>'
             },
             dist: {
               src: ["../build/css/normalize.min.css", "../build/css/main.min.css"],
