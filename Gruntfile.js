@@ -55,7 +55,6 @@ module.exports = function(grunt){
         },
         
         jshint: {
-            files: ["config.js", "app/config/*.js", "app/helpers/*.js", "app/models/map-model.js", "app/vm/*.js", "app/main.js", "app/run.js"],
                 options: {
                     // strict: true,
                     sub: true,
@@ -72,6 +71,9 @@ module.exports = function(grunt){
                     // Set force to true to report JSHint errors but not fail the task.
                     force: true,
                     reporter: require("jshint-stylish-ex")
+                },
+                files: {
+                    src : ['src/**/*.js', 'test/**/*.js']
                 }
         },
         
@@ -105,7 +107,7 @@ module.exports = function(grunt){
               stripBanners: true,
               banner: '<%= banner %>'
             },
-            dist: {
+            target: {
               src: ["../build/css/normalize.min.css", "../build/css/main.min.css"],
               dest: 'css/concat.min.css'
             }
