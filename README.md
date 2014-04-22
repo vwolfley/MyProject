@@ -18,7 +18,7 @@ This JavaScript web app viewer was developed by MAG staff for MAG member agencie
 
 ### Keywords
 
-`Land Use` `Existing Land Use` `EXLU` `Future Land Use` `FLU` `Maricopa County` `Maps` `MAG` `ESRI`
+`Land Use` `Existing Land Use` `EXLU` `Future Land Use` `FLU` `Maricopa County` `Maps` `MAG` `ESRI` `#MAGmaps`
 
 ## Site URL's
 * [Site] (http://geo.azmag.gov/maps/landuse/)
@@ -37,3 +37,6 @@ A detailed list of the changes and fixes in each version update can be found in 
 
 
 ## Resources
+
+##### Reference Example Sites
+
