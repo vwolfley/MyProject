@@ -12,8 +12,9 @@ The MAG Land Use Maps viewer allows the user to graphically view land use data f
 
 This JavaScript web app viewer was developed by MAG staff for MAG member agencies and the public using ESRI's JavaScript API.
 
-### Version  
-### `2.1.0 - 4/22/2014`
+### Version
+
+#### `2.1.0 - 4/22/2014`
 
 ### Keywords
 
