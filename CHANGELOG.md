@@ -1,4 +1,4 @@
-# Change-log for Demographics Website
+# CHANGELOG for Demographics Website
 
 [![Semver](http://img.shields.io/SemVer/2.0.0.png)](http://semver.org/spec/v2.0.0.html)
 
