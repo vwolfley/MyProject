@@ -6,6 +6,11 @@ Major/Minor/Patch 0.0.0
 
 ### Version 1.0.1 (02/25/2014)
 
+* added the [Esri Boostrap-map] (https://github.com/Esri/bootstrap-map-js)
+* added the [HTML5 Boilerplate] (https://github.com/h5bp/html5-boilerplate)
+* added the [HTML5 Shiv] (https://github.com/aFarkas/html5shiv)
+   
+
 * fixed Median Age in Demographics Summary Report so that it does not sum
 * fixed Median Household Income in Demographics Summary Report so that it does not sum
 * fixed Median Housing Values in Demographics Summary Report so that it does not sum
