@@ -1,5 +1,6 @@
 # MAG Land Use Map Viewer
 
+[![GitHub version](https://badge.fury.io/gh/boennemann%2Fbadges.svg)](https://github.com/vwolfley/MyProject/)
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 [![dependencies](https://david-dm.org/vwolfley/MyProject.png)](https://david-dm.org/vwolfley/MyProject)
 [![Semver](http://img.shields.io/SemVer/2.0.0.png)](http://semver.org/spec/v2.0.0.html)
