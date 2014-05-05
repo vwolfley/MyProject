@@ -21,23 +21,24 @@ This JavaScript web app viewer was developed by MAG staff for MAG member agencie
 
 `Land Use` `Existing Land Use` `EXLU` `Future Land Use` `FLU` `Maricopa County` `Maps` `MAG` `ESRI` `#MAGmaps`
 
-## Site URL's
+### Site URL's
+
 * [Site] (http://geo.azmag.gov/maps/landuse/)
 
 * [Test Site] (http://geo.azmag.gov/maps/test/landuse/)
 
 * [Deprecated Site] (http://geo.azmag.gov/maps/landuse_sl)
 
-## Documentation
+### Documentation
 
 A detailed list of the changes and fixes in each version update can be found in the CHANGELOG.md.
 
 * [Change Log] (CHANGELOG.md)
 
-## Process
+### Process
 
 
-## Resources
+### Resources
 
 #### ***Reference Example Sites***
 
