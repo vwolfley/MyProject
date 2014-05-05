@@ -6,9 +6,12 @@
 
 ### Version 1.0.1 (02/25/2014)
 
-* added the [Esri Boostrap-map] (https://github.com/Esri/bootstrap-map-js)
-* added the [HTML5 Boilerplate] (https://github.com/h5bp/html5-boilerplate)
+* added the [Esri Boostrap-map v3.1.1] (https://github.com/Esri/bootstrap-map-js)
+* added the [HTML5 Boilerplate v4.3.0] (https://github.com/h5bp/html5-boilerplate)
 * added the [HTML5 Shiv] (https://github.com/aFarkas/html5shiv)
+* update to [Modernizr v2.7.1] (http://modernizr.com/)
+* update to [Normalize.css v3.0.1] (http://necolas.github.io/normalize.css/)
+* added the [respond.min.js] (https://github.com/scottjehl/Respond)
 * fixed Median Age in Demographics Summary Report so that it does not sum
 * fixed Median Household Income in Demographics Summary Report so that it does not sum
 * fixed Median Housing Values in Demographics Summary Report so that it does not sum
