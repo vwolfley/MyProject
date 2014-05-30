@@ -51,5 +51,10 @@ A detailed list of the changes and fixes in each version update can be found in 
             --img
             --docs
         --name_project
+            --css
+            --img
+            --js
+                --vendor
+            --views
         --deploy
             --build_#.#.#
