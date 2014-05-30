@@ -44,7 +44,7 @@ A detailed list of the changes and fixes in each version update can be found in 
 
 ### Folder Structure
 
-|--Project folder
+`|--Project folder
 | |--assets
 |   |--data
 |   |--mxds
@@ -52,4 +52,4 @@ A detailed list of the changes and fixes in each version update can be found in 
 |   |--docs
 | |--name_project
 | |--deploy
-|   |--build_#.#.#
+|   |--build_#.#.#`
