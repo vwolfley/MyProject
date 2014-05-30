@@ -42,4 +42,14 @@ A detailed list of the changes and fixes in each version update can be found in 
 
 #### ***Reference Example Sites***
 
+### Folder Structure
 
+|--Project folder
+| |--assets
+|   |--data
+|   |--mxds
+|   |--img
+|   |--docs
+| |--name_project
+| |--deploy
+|   |--build_#.#.#
