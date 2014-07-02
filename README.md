@@ -15,7 +15,10 @@ This JavaScript web app viewer was developed by MAG staff for MAG member agencie
 
 ### Version
 
-#### `2.1.0 - 4/22/2014`
+#### `2.1.0 - 04/22/2014`
+#### `2.0.0 - 04/18/2014`
+#### `1.0.0 - 04/10/2014`
+#### `0.0.0 - 04/01/2014`
 
 ### Keywords
 
