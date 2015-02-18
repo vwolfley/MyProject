@@ -19,14 +19,16 @@
 	"bold_folder_labels": true,
 	"ignored_packages":
 	[
-		"JavaScript Console",
-		"FileDiffs",
-		"JavaScript",
-		"AngularJS",
-		"Dayle Rees Color Schemes"
 	],
 	"ignored_words":
 	[
 		"Maricopa"
 	]
 }
+// Packages Installed
+Bracket Highliter
+DocBlockr
+Javascript Beautify
+Markdown Preview
+Package Control
+SublimeGit
