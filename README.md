@@ -7,6 +7,7 @@
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/hyperium/hyper/master/LICENSE)
 [![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg?maxAge=2592000)](https://github.com/vwolfley/MyProject/blob/master/package.json)
 [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg?maxAge=2592000)]()
+[![homebrew](https://img.shields.io/homebrew/v/cake.svg?maxAge=2592000)]()
 
 The Land Use Map Viewer is one of the Maricopa Association of Governments (MAG) interactive mapping and analysis sites, showing land use data.
 
