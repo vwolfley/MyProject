@@ -31,7 +31,6 @@
 # THANKS
 
 
-
 # TECHNOLOGY COLOPHON
 
     Standards: HTML5, CSS3
@@ -43,6 +42,7 @@
     Site URL:
     Version: 0.0.0
     Last updated: mm/dd/yyyy
+    Creation Date: mm/dd/yyyy
     Language: English
     Doctype: HTML5
     IDE: Sublime Text
