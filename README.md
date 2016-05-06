@@ -15,16 +15,27 @@ The MAG Land Use Maps viewer allows the user to graphically view land use data f
 
 This JavaScript web app viewer was developed by MAG staff for MAG member agencies and the public using ESRI's JavaScript API.
 
-### Version
-
-#### `2.1.0 - 04/22/2014`
-#### `2.0.0 - 04/18/2014`
-#### `1.0.0 - 04/10/2014`
-#### `0.0.0 - 04/01/2014`
-
 ### Keywords
 
 `Land Use` `Existing Land Use` `EXLU` `Future Land Use` `FLU` `Maricopa County` `Maps` `MAG` `ESRI` `#MAGmaps`
+
+#### `version 2.2.2` ####
+ `Updated: 04/28/2016`
+ `Created: 10/21/2014`
+
+Releases will be numbered with the following format:
+
+`<major>.<minor>.<patch>`
+
+And constructed with the following guidelines:
+
+1. MAJOR version when you make incompatible API changes **bumps the major** resets minor and patch
+2. MINOR version when you add functionality in a backwards-compatible manner **bumps the minor** resets patch
+3. PATCH version when you make backwards-compatible bug fixes and misc changes **bumps only the patch**
+
+***************************************************************************************************************
+
+### Credits
 
 ### Site URL's
 
@@ -42,10 +53,23 @@ A detailed list of the changes and fixes in each version update can be found in 
 
 ### Process
 
-
 ### Resources
 
-#### ***Reference Example Sites***
+### Legal Disclaimer
+
+### Copyright and Licensing
+
+Code released under the MIT license.
+
+- [LICENSE] (LICENSE.txt)
+
+Copyright (c) 2016 Vern Wolfley
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### Folder Structure
 
