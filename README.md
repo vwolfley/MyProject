@@ -19,6 +19,8 @@ This JavaScript web app viewer was developed by MAG staff for MAG member agencie
 
 `Land Use` `Existing Land Use` `EXLU` `Future Land Use` `FLU` `Maricopa County` `Maps` `MAG` `ESRI` `#MAGmaps`
 
+### Version
+
 #### `version 2.2.2` ####
  `Updated: 04/28/2016`
  `Created: 10/21/2014`
