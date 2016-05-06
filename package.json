@@ -1,23 +1,54 @@
 {
-    "name" : "SampleGrunt",
-    "version" : "3.1.0",
-    "author" : "Vern Wolfley",
-    "twitter": "@vernwolfley",
-    "url": "http://geo.azmag.gov/maps/...../",
-    "private" : true,
-
-    "devDependencies" : {
-        "grunt" :                       "~0.4.4",
-        "grunt-contrib-cssmin":         "*",
-        "grunt-contrib-sass":           "*",
-        "grunt-contrib-jshint":         "*",
-        "grunt-contrib-csslint":        "*",
-        "grunt-contrib-uglify":         "*",
-        "grunt-contrib-concat":         "*",
-        "grunt-contrib-watch":          "*",
-        "grunt-cssc":                   "*",
-        "grunt-htmlhint":               "*",
-        "matchdep":                     "*",
-        "jshint-stylish-ex":            "*"
+  "name": "SampleProject",
+  "version": "1.0.0",
+  "date": "04/28/2016",
+  "description": "Sample Project",
+  "keywords": [
+    "Demographics",
+    "MAG",
+    "maps",
+    "state",
+    "Arizona",
+    "census",
+    "2010",
+    "American Community Survey",
+    "ACS",
+    "2010-2014",
+    "ESRI",
+    "#MAGmaps"
+  ],
+  "main": "index.js",
+  "homepage": "http://",
+  "author": "Vern Wolfley <@vwolfley>",
+  "contributors": [
+    {
+      "name": "Vern Wolfley",
+      "email": "",
+      "twitter": "@vwolfley"
+    },
+    {
+      "name": "",
+      "email": ""
     }
+  ],
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-csslint": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-htmlhint": "*",
+    "grunt-text-replace": "*",
+    "grunt-version-check": "*",
+    "jshint-stylish-ex": "*",
+    "lodash": "*",
+    "matchdep": "*",
+    "normalize.css": "*"
+  },
+  "license": "MIT"
 }
+
