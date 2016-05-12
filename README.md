@@ -15,11 +15,11 @@ The MAG Land Use Maps viewer allows the user to graphically view land use data f
 
 This JavaScript web app viewer was developed by MAG staff for MAG member agencies and the public using ESRI's JavaScript API.
 
-### Keywords
+## Keywords
 
 `Land Use` `Existing Land Use` `EXLU` `Future Land Use` `FLU` `Maricopa County` `Maps` `MAG` `ESRI` `#MAGmaps`
 
-### Version
+## Version
 
 #### `version 2.2.2` ####
  `Updated: 04/28/2016`
@@ -35,11 +35,9 @@ And constructed with the following guidelines:
 2. MINOR version when you add functionality in a backwards-compatible manner **bumps the minor** resets patch
 3. PATCH version when you make backwards-compatible bug fixes and misc changes **bumps only the patch**
 
-***************************************************************************************************************
+## Credits
 
-### Credits
-
-### Site URL's
+## Site URL's
 
 * [Site] (http://geo.azmag.gov/maps/landuse/)
 
@@ -47,19 +45,19 @@ And constructed with the following guidelines:
 
 * [Deprecated Site] (http://geo.azmag.gov/maps/landuse_sl)
 
-### Documentation
+## Documentation
 
 A detailed list of the changes and fixes in each version update can be found in the CHANGELOG.md.
 
 * [Change Log] (CHANGELOG.md)
 
-### Process
+## Process
 
-### Resources
+## Resources
 
-### Legal Disclaimer
+## Legal Disclaimer
 
-### Copyright and Licensing
+## Copyright and Licensing
 
 Code released under the MIT license.
 
@@ -73,7 +71,7 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-### Folder Structure
+## Folder Structure
 
     --Project folder
         --assets
