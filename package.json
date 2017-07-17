@@ -2,6 +2,7 @@
   "name": "SampleProject",
   "version": "1.1.2",
   "date": "04/28/2016",
+  "copyright": "2017",
   "description": "Sample Project",
   "keywords": [
     "Demographics",
@@ -19,6 +20,8 @@
   ],
   "main": "index.js",
   "homepage": "http://",
+  "repository": "https://github.com/AZMAG/map-Employment",
+  "repository-internal": "I:/Projects/Git_repos/employment-app.git",
   "author": "Vern Wolfley <@vwolfley>",
   "contributors": [
     {
