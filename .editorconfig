@@ -1,0 +1,24 @@
+# This file is for unifying the coding style for different editors and IDEs.
+# More information at http://EditorConfig.org
+
+# No .editorconfig files above the root directory
+root = true
+
+[*]
+charset = utf-8
+indent_size = 4
+indent_style = tab
+insert_final_newline = true
+trim_trailing_whitespace = true
+end_of_line = lf
+
+# Use 2 spaces for indentation in HTML, JavaScript, Ruby, SCSS, and XML
+
+[*.{html,js,rb,scss,xml,json}]
+indent_size = 2
+
+# Use 4 spaces for indentation in Markdown files
+
+[*.md]
+trim_trailing_whitespace = false
+indent_size = 4
