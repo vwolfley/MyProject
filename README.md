@@ -35,6 +35,12 @@ And constructed with the following guidelines:
 2. MINOR version when you add functionality in a backwards-compatible manner **bumps the minor** resets patch
 3. PATCH version when you make backwards-compatible bug fixes and misc changes **bumps only the patch**
 
+OR
+
+1. MAJOR version when you break backwards-compatibility or add major features
+2. MINOR version when you add a new feature
+3. PATCH version when you fix something
+
 ## Credits
 
 ## Site URL's
